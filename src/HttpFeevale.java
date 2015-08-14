@@ -1,3 +1,7 @@
+/**
+ * @author Fabio Beneditto
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -14,8 +18,9 @@ public class HttpFeevale {
             out.println();
             out.flush();
 
-            while(in.readLine() != null){
-                System.out.println(in.readLine());
+            String row;
+            while((row = in.readLine()) != null){
+                System.out.println(row);
             }
 
         }catch(Exception e){
